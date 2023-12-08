@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'fonts';
+    src: url(Graduate-Regular.ttf);
+}
+
+
+
+body {
+    
+    font-family: 'fonts', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #262626;
+}
+.main {
+    
+    
+    padding-top: 50px;
+    color: #4FC0D0; 
+    text-align: center;
+    font-style: italic;
+    
+
+}
+
+.imagediv{
+    width: 500px;
+    margin: 10 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+    transition: 3s;
+    border-radius: 10px;
+    background-color: #092635;
+    border: 1px solid red;
+ 
+    
+}
+
+    
+
+.imagecon{
+   
+    width: 100%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.imagediv img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.imagediv:hover{
+    transform: scale(1.3);
+  
+    z-index: 3;
+}
+.link{
+    padding-left: 40%;
+    
+}
+
+p, .description, .link {
+    text-align: center;
+    color: #EA906C;
+    font-style: italic;
+    font-family: 'fonts', sans-serif;
+    
+    
+}
+
+header {
+    background-color: #333;
+    border: 2px solid #B31312;
+    border-left: none;
+    border-right: none  ;
+    border-top: none;
+    color: white;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #B9FFF8;
+    font-style: oblique;
+}
+
+nav {
+    display: flex;
+  
+}
+
+nav a {
+    color: #0CECDD;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    transition: background-color 0.5s;
+    
+}
+
+nav a:hover {
+    background-color: #B31312;
+    border-radius: 10px;
+    color: #B6BBC4;
+}
+
+nav a.active {
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+}
+
+.hidden-content {
+    display: none;
+  }
+
+  
+    
